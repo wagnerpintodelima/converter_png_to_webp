@@ -50,7 +50,7 @@ pip install pillow
  - Exemplo
   - ```bash
     python script_without_alpha.py
-  ```
+    ```
 
 Após isso é só pegar suas imagens na pasta foto_webp
 
