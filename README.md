@@ -29,6 +29,14 @@ pip install pillow
 ```
 
 ## 🧠 Modo de uso
+- Abra o script e mude para o seu endereço de pastas.
+  - ```bash
+    # Caminho da pasta com as imagens
+    caminho = fr'D:\Projetos\converter_png_to_webp\fotos_png'
+    
+    # Cria pasta de saída (opcional)
+    saida = fr'D:\Projetos\converter_png_to_webp\fotos_webp'
+    ```
 - Coloque as fotos png na pasta
 - Abra o cmd e entra na pasta do projeto
 - Há dois scripts para ser usado:
@@ -40,9 +48,10 @@ pip install pillow
     - Um arquivo de 900KB ficará em torno de 20KB
 
  - Exemplo
-```bash
-python script_without_alpha.py
-```
+  - ```bash
+    python script_without_alpha.py
+  ```
+
 Após isso é só pegar suas imagens na pasta foto_webp
 
 
