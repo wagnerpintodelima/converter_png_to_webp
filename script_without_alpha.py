@@ -2,10 +2,10 @@ from PIL import Image
 import os
 
 # Caminho da pasta com as imagens
-caminho = fr'D:\Projetos\ImagensWebp\fotos_png'
+caminho = fr'D:\Projetos\converter_png_to_webp\fotos_png'
 
 # Cria pasta de saída (opcional)
-saida = fr'D:\Projetos\ImagensWebp\fotos_webp'
+saida = fr'D:\Projetos\converter_png_to_webp\fotos_webp'
 os.makedirs(saida, exist_ok=True)
 
 # Tipos de arquivos aceitos
